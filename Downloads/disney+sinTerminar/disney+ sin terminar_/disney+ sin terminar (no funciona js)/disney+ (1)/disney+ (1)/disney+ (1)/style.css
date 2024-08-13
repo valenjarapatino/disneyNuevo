@@ -1,0 +1,178 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*peliculas en carrucel*/
+
+#carussel-flex{
+     z-index: 1;
+    overflow: hidden;
+
+}
+.carusel-section{
+    background-size: 100%;
+    width: 400%;
+    display: flex;
+    flex-direction: row;
+
+    
+    overflow: hidden;
+}
+.section{
+    background-size:cover;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    
+}
+
+/*texto p*/
+ p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    padding: 30px;
+
+ }
+ 
+/*navbar*/
+
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    
+    font-size: 45px;
+}
+
+
+
+/*lista2 */
+
+
+nav{
+    position: absolute;
+    background-image: linear-gradient(360deg, rgba(255, 255 , 255, 0), rgb(0,0,0));
+    z-index: 3;
+    display: flex;
+    background-position: right;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    width: 100%;
+}
+
+h1{
+    color: rgb(0, 191, 255);
+    font-size: 45px;
+}
+
+.lista2 .li2{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 25px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.ul2 .li2{
+   
+    padding: 0px 20px;
+}
+
+/*logos*/
+
+.logos{
+    width: 70px;
+    height: 70px;
+}
+/*iconos*/
+
+.iconos{
+    width: 30px;
+    height: 30px;
+}
+/*logo*/
+
+.logo-loki{
+    width: 350px;
+    height: 400px;
+    background-position: center;
+    border: 20px;
+    padding: 60px;
+}
+/*imagenes -botones  */
+
+.img-botones{
+    width: 35px;
+    height: 35px;
+}
+/*botones*/
+
+.botones{
+    margin-top: 75vh;
+    margin-left: 3vw;
+    cursor: pointer; 
+    position: absolute;  
+    z-index: 2;
+}
+
+.button{
+  
+   background-color: #fff;
+   color:black; 
+   padding: 10px 50px; 
+   border: none;
+   border-radius: 5px;
+   cursor: pointer; 
+   border-color: black;
+   border-style: solid;
+   border-width: 2px;
+   margin:  10px;
+
+}
+
+/*boton negro 2*/
+
+.button2{
+
+    background-color: #090909;
+    color:rgb(255, 255, 255); 
+    padding: 10px 50px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    border-color: rgb(255, 255, 255); 
+    border-style: solid;
+    border-width: 2px;
+ }
+ 
